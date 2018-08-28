@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigove
 x-kinRank: "8"
 x-alexaRank: "117577"
 tags: Related
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/related/master/_listings/bigoven/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Big Oven - Get recipes related to the given recipeId
+  x-api-slug: reciperecipeidrelated-get
+  description: Get recipes related to the given recipeid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
+  humanURL: http://www.bigoven.com
+  baseURL: https://api2.bigoven.com//
+  tags: Cooking, Food, Nutrition, Recipes, Food, Stack Network, Mobile, Technology,
+    internet, API Provider, , Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/related/master/_listings/bigoven/reciperecipeidrelated-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.bigoven.com

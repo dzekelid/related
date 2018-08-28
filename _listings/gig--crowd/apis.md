@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Related
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/related/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GIG & Crowd - Get Gigme Event Eventid Related
+  x-api-slug: apiv1gigmeeventeventidrelated-get
+  description: Get gigme event eventid related.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/related/master/_listings/gig--crowd/apiv1gigmeeventeventidrelated-get-openapi.md
 - name: GIG & Crowd - Get Gigme Place Placeid Related
   x-api-slug: apiv1gigmeplaceplaceidrelated-get
   description: Get gigme place placeid related.

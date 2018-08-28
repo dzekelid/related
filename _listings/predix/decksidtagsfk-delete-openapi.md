@@ -6,6 +6,7 @@ info:
   title: Predix Views Delete a related item by id for tags.
   version: 1.0.0
   description: Delete a related item by id for tags..
+host: thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io
 basePath: /v1
 schemes:
 - http

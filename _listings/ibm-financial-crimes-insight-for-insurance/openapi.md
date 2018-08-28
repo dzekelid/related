@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: IBM Financial Crimes Insight for Insurance
 x-complete: 1
@@ -69,4 +68,3 @@ paths:
       - Sourced
       - Reference
       - Party
----
